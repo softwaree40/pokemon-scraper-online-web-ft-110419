@@ -24,8 +24,8 @@ class Pokemon
        WHERE id = ?
        SQL
         last = db.execute(sql,id)
-        last = Pokemon.new
-        last.id = last
+         new_obj = Pokemon.new
+         new_obj  = last
         last 
           binding.pry
       end
