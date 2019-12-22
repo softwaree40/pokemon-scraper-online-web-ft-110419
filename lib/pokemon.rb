@@ -25,7 +25,7 @@ class Pokemon
        SQL
         last = db.execute(sql,id)
         last 
-          binding.pry
+          #binding.pry
       end
       
 end
