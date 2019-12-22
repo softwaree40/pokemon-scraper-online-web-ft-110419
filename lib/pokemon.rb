@@ -1,6 +1,6 @@
 class Pokemon
-     attr_accessor:name,:type,:db
-     attr_reader:id
+     attr_accessor:name,:type,:db,:id
+    
     def initialize(hash={})
       #binding.pry
       @id = id
