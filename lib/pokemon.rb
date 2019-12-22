@@ -10,6 +10,7 @@ class Pokemon
       
     end
     def self.save(a,b,c)
+       binding.pry
         
     end
       
