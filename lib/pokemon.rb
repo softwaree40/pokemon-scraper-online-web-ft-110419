@@ -9,7 +9,7 @@ class Pokemon
       @db = db
       
     end
-    def self.save(a,b,c)
+    def self.save(name,type,db)
        binding.pry
         
     end
