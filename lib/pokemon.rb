@@ -18,14 +18,13 @@ class Pokemon
        
     end
       def self.find(id,db) 
-        binding.pry
-          db.execute(
-          <<-SQL 
+        # binding.pry
+        sql = <<-SQL 
        SELECT * FROM pokemon
        WHERE id = ?
        LIMIT 1
        SQL
-       )
+        db.execute(sql)
           
       end
       
