@@ -18,7 +18,7 @@ class Pokemon
        
     end
       def self.find(id,db) 
-          
+          db.map do ||
           binding.pry
       end
       
