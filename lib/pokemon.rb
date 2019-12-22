@@ -19,7 +19,10 @@ class Pokemon
     end
       def self.find(id,db) 
         binding.pry
-          db.execute(sql)
+          db.execute(sql = <<-SQL 
+       INSERT INTO pokemon 
+       (name,type) VALUES (?,?) 
+       SQL)
           
       end
       
