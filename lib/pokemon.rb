@@ -21,8 +21,9 @@ class Pokemon
         binding.pry
           db.execute(
           <<-SQL 
-       INSERT INTO pokemon 
-       (name,type) VALUES (?,?) 
+       SELECT * FROM pokemon
+       WHERE id = ?
+       LIMIT 1
        SQL
        )
           
