@@ -19,7 +19,7 @@ class Pokemon
     end
       def self.find(id,db) 
         binding.pry
-          db.execute(a)
+          db.execute()
           
       end
       
