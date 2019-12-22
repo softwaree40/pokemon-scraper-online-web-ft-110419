@@ -23,8 +23,8 @@ class Pokemon
        SELECT * FROM pokemon
        WHERE id = ?
        SQL
-        db.execute(sql,id)
-          
+        last = db.execute(sql,id)
+          binding.pry
       end
       
 end
