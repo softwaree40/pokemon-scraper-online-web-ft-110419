@@ -27,7 +27,7 @@ class Pokemon
          new_obj = Pokemon.new
          binding.pry
          new_obj.id = last[0][0]
-         new_obj.name = last[0][0][0]
+         new_obj.name = last[0][1]
          
       end
       
