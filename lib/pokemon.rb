@@ -25,7 +25,7 @@ class Pokemon
        SQL
         last = db.execute(sql,id)
         last = Pokemon.new
-        last.id
+        last.id = last
         last 
           binding.pry
       end
