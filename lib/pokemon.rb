@@ -25,8 +25,8 @@ class Pokemon
        SQL
         last = db.execute(sql,id)
          new_obj = Pokemon.new
-         new_obj  = last
-        last 
+         new_obj.id = last[0]
+         new_obj.name = last[1]
           binding.pry
       end
       
