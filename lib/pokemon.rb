@@ -10,10 +10,6 @@ class Pokemon
       
     end
     def save
-       sql =<<-SQL INSERT INTO Pokemon 
-          (name,type,db) VALUES (?,?,?)
-           SQL
-        DB[:conn].execute(sql)
-    end
+       
   
 end
